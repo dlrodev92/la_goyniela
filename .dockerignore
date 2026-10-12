@@ -48,8 +48,6 @@ pytest.ini
 *.cfg
 *.toml
 !pyproject.toml
-readme.md
-README.md
 
 # ── Heavy runtime assets (mount via volume or S3 in production) ──
 data/team-assets/
