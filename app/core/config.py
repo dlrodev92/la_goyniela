@@ -5,7 +5,7 @@ types and required fields at startup, so missing env vars fail loudly.
 """
 from __future__ import annotations
 
-from pydantic import Field
+from pydantic import Field, field_validator
 from pydantic_settings import BaseSettings, SettingsConfigDict
 
 
@@ -22,6 +22,21 @@ class Settings(BaseSettings):
         default="postgresql+psycopg://la_goyniela:la_goyniela@localhost:5433/la_goyniela",
         description="SQLAlchemy async URL. Default targets the docker-compose dev DB on port 5433.",
     )
+
+    @field_validator("database_url", mode="before")
+    @classmethod
+    def _coerce_psycopg_driver(cls, v: str) -> str:
+        """Translate ``postgresql://`` → ``postgresql+psycopg://``.
+
+        The app uses the async psycopg3 driver everywhere. Hosting platforms
+        (Railway, Heroku, Render, etc.) usually inject ``DATABASE_URL`` as
+        a plain ``postgresql://...`` URL. SQLAlchemy would then try to load
+        psycopg2 (the sync driver), which we don't ship. Rewrite the driver
+        to psycopg3 on the way in.
+        """
+        if isinstance(v, str) and v.startswith("postgresql://"):
+            return v.replace("postgresql://", "postgresql+psycopg://", 1)
+        return v
     log_level: str = Field(default="INFO")
     cors_origins: list[str] = Field(default_factory=lambda: ["http://localhost:3000"])
     api_football_key: str | None = Field(default=None, description="API-Football key (read at runtime by clients)")
