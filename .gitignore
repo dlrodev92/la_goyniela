@@ -1,0 +1,75 @@
+# ── OS / editor ──
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+build/
+dist/
+
+# ── Virtualenvs + lockfiles ──
+.venv/
+venv/
+env/
+.python-version
+
+# ── Tooling caches (created at runtime, never commit) ──
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.cache/
+.atl/
+.codegraph/
+.venv.bak/
+
+# ── Logs + scratch ──
+*.log
+*.pid
+*.sock
+nohup.out
+.scrapy/
+celerybeat-schedule
+
+# ── Local env + secrets (use .env.example as the template) ──
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+
+# ── IDE ──
+.idea/
+.vscode/
+*.swp
+.DS_Store
+.idea_modules/
+
+# ── Runtime data the API writes (uploads, caches, logs) ──
+static/uploads/
+logs/
+*.sqlite
+*.db
+*.db-journal
+
+# ── Test + dev artifacts (regenerated every run) ──
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+.cache/
+test-results/
+.playwright-mcp/
+
+# ── Losilla/Quiniwin on-disk cache (created by the losilla client) ──
+/tmp/la-goyniela-*

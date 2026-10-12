@@ -1,0 +1,56 @@
+# ── Python ──
+__pycache__/
+*.py[cod]
+*.pyo
+*.egg-info/
+.venv/
+venv/
+.python-version
+
+# ── Tooling caches ──
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.atl/
+.codegraph/
+.venv.bak/
+
+# ── Local dev artifacts (never needed at build time) ──
+.env
+.env.local
+.env.*.local
+*.log
+*.sqlite
+*.db
+*.pem
+*.key
+
+# ── Toolchain dirs that bloat the build context ──
+.git/
+.gitignore
+.dockerignore
+Dockerfile
+docker-compose*.yml
+.idea/
+.vscode/
+.DS_Store
+docs/
+mockups/
+scripts/cache/
+scripts/data/
+scripts/mocks/
+tests/
+pytest.ini
+.conftest.py
+*.cfg
+*.toml
+!pyproject.toml
+readme.md
+README.md
+
+# ── Heavy runtime assets (mount via volume or S3 in production) ──
+data/team-assets/
+data/*.json

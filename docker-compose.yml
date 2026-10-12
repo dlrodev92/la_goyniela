@@ -1,0 +1,23 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: la-goyniela-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: la_goyniela
+      POSTGRES_PASSWORD: la_goyniela
+      POSTGRES_DB: la_goyniela
+    ports:
+      # 5433 instead of 5432 because another postgres container
+      # (hispania-postgres) is already bound to 5432 on this host.
+      - "5433:5432"
+    volumes:
+      - la-goyniela-pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U la_goyniela -d la_goyniela"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  la-goyniela-pgdata:

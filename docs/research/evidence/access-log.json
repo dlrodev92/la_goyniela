@@ -1,0 +1,300 @@
+[
+  {
+    "id": "fd_spain",
+    "url": "https://football-data.co.uk/spainm.php",
+    "checked_at": "2026-09-20T21:33:39.716718+00:00",
+    "status": 200,
+    "final_url": "https://football-data.co.uk/spainm.php",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 46400,
+    "sha256": "fcce9e9d3e684c8358831872c0f8691b324aa56ed647a2639f69180cad546ae5"
+  },
+  {
+    "id": "fd_fixtures_page",
+    "url": "https://football-data.co.uk/matches.php",
+    "checked_at": "2026-09-20T21:33:40.486154+00:00",
+    "status": 200,
+    "final_url": "https://football-data.co.uk/matches.php",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 33537,
+    "sha256": "ddf8aa37a275ea7059f6e9b50a4e538b3b89ceea7fb0a065e7e33acf11d74bae"
+  },
+  {
+    "id": "fd_notes",
+    "url": "https://football-data.co.uk/notes.txt",
+    "checked_at": "2026-09-20T21:33:41.242144+00:00",
+    "status": 200,
+    "final_url": "https://football-data.co.uk/notes.txt",
+    "content_type": "text/plain",
+    "bytes": 7686,
+    "sha256": "6ecd41a98ad2751372817e7e6f1709bfeb433c53dd9aeda330fd926a5471452d"
+  },
+  {
+    "id": "fd_sp1_2526",
+    "url": "https://football-data.co.uk/mmz4281/2526/SP1.csv",
+    "checked_at": "2026-09-20T21:33:41.926577+00:00",
+    "status": 200,
+    "final_url": "https://football-data.co.uk/mmz4281/2526/SP1.csv",
+    "content_type": "text/csv",
+    "bytes": 197653,
+    "sha256": "4ca2e285f3ee0702f6bc55fcaa4f5a15cb3aef6220735a1d15398131e21d63f5"
+  },
+  {
+    "id": "fd_sp2_2526",
+    "url": "https://football-data.co.uk/mmz4281/2526/SP2.csv",
+    "checked_at": "2026-09-20T21:33:42.666164+00:00",
+    "status": 200,
+    "final_url": "https://football-data.co.uk/mmz4281/2526/SP2.csv",
+    "content_type": "text/csv",
+    "bytes": 237701,
+    "sha256": "4986060e5c1d55626aef24c4bbeaaea2278b27a0b7696927405705aaa57405de"
+  },
+  {
+    "id": "fd_sp1_2627",
+    "url": "https://football-data.co.uk/mmz4281/2627/SP1.csv",
+    "checked_at": "2026-09-20T21:33:43.419515+00:00",
+    "status": 200,
+    "final_url": "https://football-data.co.uk/mmz4281/2627/SP1.csv",
+    "content_type": "text/csv",
+    "bytes": 28496,
+    "sha256": "819130d1d82c12d8e8df0b0fc7c6602d8f5affd444e988e65754c3ef9db41582"
+  },
+  {
+    "id": "fd_sp2_2627",
+    "url": "https://football-data.co.uk/mmz4281/2627/SP2.csv",
+    "checked_at": "2026-09-20T21:33:44.113685+00:00",
+    "status": 200,
+    "final_url": "https://football-data.co.uk/mmz4281/2627/SP2.csv",
+    "content_type": "text/csv",
+    "bytes": 26424,
+    "sha256": "477ae4e068660f33b0a86ceb61786ddbd309fc4e477b83f95e87d8cc94ac6800"
+  },
+  {
+    "id": "fd_fixtures",
+    "url": "https://football-data.co.uk/fixtures.csv",
+    "checked_at": "2026-09-20T21:33:44.821280+00:00",
+    "status": 200,
+    "final_url": "https://football-data.co.uk/fixtures.csv",
+    "content_type": "text/csv",
+    "bytes": 56308,
+    "sha256": "168291f86ef629f9986f336cd8e5bb0c07f89a0ce2b9f4edbd6c7f4af325317a"
+  },
+  {
+    "id": "selae_quiniela",
+    "url": "https://www.loteriasyapuestas.es/es/la-quiniela",
+    "checked_at": "2026-09-20T21:33:45.528697+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "quiniwin_downloads",
+    "url": "https://www.quiniwin.com/quinielas/descargas.html",
+    "checked_at": "2026-09-20T21:33:46.231432+00:00",
+    "status": 200,
+    "final_url": "https://www.quiniwin.com/quinielas/descargas.html",
+    "content_type": "text/html",
+    "bytes": 27086,
+    "sha256": "a0acf4ce26567b38e42118d833b76a5e8ffd1cfac7f3e140d130e916a6974f71"
+  },
+  {
+    "id": "statsbomb_competitions",
+    "url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/competitions.json",
+    "checked_at": "2026-09-20T21:33:47.145895+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/data/competitions.json",
+    "content_type": "text/plain; charset=utf-8",
+    "bytes": 34887,
+    "sha256": "e6cd42f5d8956d6aa30fb917ce8d4c3b3df1879a93f02f8feba820930a6971fa"
+  },
+  {
+    "id": "losilla_porcentajes",
+    "url": "https://www.eduardolosilla.es/quiniela/ayudas/porcentajes",
+    "checked_at": "2026-09-20T21:35:52.757513+00:00",
+    "status": 200,
+    "final_url": "https://www.eduardolosilla.es/quiniela/ayudas/porcentajes",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 366609,
+    "sha256": "4feba3dfe0509988672e3635db6855ee350f1a6ad07f0c42f880089b45bd269d"
+  },
+  {
+    "id": "losilla_analisis_csv",
+    "url": "https://api.eduardolosilla.es/analisisSigno?csv=true&num_jornada=9&num_temporada=2027",
+    "checked_at": "2026-09-20T21:35:55.684591+00:00",
+    "status": 200,
+    "final_url": "https://api.eduardolosilla.es/analisisSigno?csv=true&num_jornada=9&num_temporada=2027",
+    "content_type": "txt/csv",
+    "bytes": 2529,
+    "sha256": "72d246ccc240a98480a758d92975f987cfdfb112d306672649d8ad59d5d00103"
+  },
+  {
+    "id": "quiniwin_j01_2324",
+    "url": "https://www.quiniwin.com/xml/2023-2024_j01.xml",
+    "checked_at": "2026-09-20T21:35:56.529647+00:00",
+    "status": 200,
+    "final_url": "https://www.quiniwin.com/xml/2023-2024_j01.xml",
+    "content_type": "text/xml",
+    "bytes": 1579,
+    "sha256": "26fd3d008558aa1b61334c20142810da737c35c630a94a746d6f3e14b68ae761"
+  },
+  {
+    "id": "quiniwin_j08_2627",
+    "url": "https://www.quiniwin.com/xml/2026-2027_j08.xml",
+    "checked_at": "2026-09-20T21:35:57.207313+00:00",
+    "status": 200,
+    "final_url": "https://www.quiniwin.com/xml/2026-2027_j08.xml",
+    "content_type": "text/xml",
+    "bytes": 1626,
+    "sha256": "c9e94d4f8b16d36dc968468f389e982c95128c2da88c663cd7c3c3489d5b8d8e"
+  },
+  {
+    "id": "clubelo_api",
+    "url": "http://api.clubelo.com/2026-09-19",
+    "checked_at": "2026-09-20T21:35:57.832771+00:00",
+    "error": "HTTP Error 502: Bad Gateway"
+  },
+  {
+    "id": "clubelo_doc",
+    "url": "http://clubelo.com/API",
+    "checked_at": "2026-09-20T21:35:58.659942+00:00",
+    "status": 200,
+    "final_url": "https://clubelo.com/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 600073,
+    "sha256": "73b568f95d48a62dd00c094f9c04bcbca2162d4a8e985a1b2b70f68b5b0da278"
+  },
+  {
+    "id": "odds_docs",
+    "url": "https://the-odds-api.com/liveapi/guides/v4/",
+    "checked_at": "2026-09-20T21:36:14.301000+00:00",
+    "status": 200,
+    "final_url": "https://the-odds-api.com/liveapi/guides/v4/",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 325429,
+    "sha256": "4d3c51f566f06243593147da4947b41e6a47ab7474a3354d3012a08abf34e370"
+  },
+  {
+    "id": "api_football_coverage",
+    "url": "https://www.api-football.com/coverage",
+    "checked_at": "2026-09-20T21:36:14.900009+00:00",
+    "error": "HTTP Error 403: Forbidden"
+  },
+  {
+    "id": "understat_laliga",
+    "url": "https://understat.com/league/La_liga/2026",
+    "checked_at": "2026-09-20T21:36:15.453264+00:00",
+    "status": 200,
+    "final_url": "https://understat.com/league/La_liga/2026",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 18715,
+    "sha256": "4225a8b9a67a698a9c310007495b093b3770e6801b494d0fc65e96733fceb8f6"
+  },
+  {
+    "id": "statsbomb_license",
+    "url": "https://raw.githubusercontent.com/statsbomb/open-data/master/LICENSE.pdf",
+    "checked_at": "2026-09-20T21:36:16.387783+00:00",
+    "status": 200,
+    "final_url": "https://raw.githubusercontent.com/statsbomb/open-data/master/LICENSE.pdf",
+    "content_type": "application/octet-stream",
+    "bytes": 165130,
+    "sha256": "a5462e69aeb71a39268b760b110c5c2190a2e0cee3015ba976f66bd71f6c2bb4"
+  },
+  {
+    "id": "losilla_real_j09",
+    "url": "https://api.eduardolosilla.es/servicios/v1/probabilidad_real?jornada=9&temporada=2027",
+    "checked_at": "2026-09-20T21:37:19.688544+00:00",
+    "status": 200,
+    "final_url": "https://api.eduardolosilla.es/servicios/v1/probabilidad_real?jornada=9&temporada=2027",
+    "content_type": "application/xml",
+    "bytes": 2536,
+    "sha256": "383a7aaae02f2f9829d200cfb2ff6b260cee5f0d61bd59cf5370a5ece495e603"
+  },
+  {
+    "id": "losilla_lae_j09",
+    "url": "https://api.eduardolosilla.es/servicios/v1/porcentajes_lae?jornada=9&temporada=2027",
+    "checked_at": "2026-09-20T21:37:20.715242+00:00",
+    "status": 200,
+    "final_url": "https://api.eduardolosilla.es/servicios/v1/porcentajes_lae?jornada=9&temporada=2027",
+    "content_type": "application/xml",
+    "bytes": 1559,
+    "sha256": "646507208966066b4f3dc5ce671d83f3d44a4bff57b0f222447854cf567f5176"
+  },
+  {
+    "id": "losilla_real_j08",
+    "url": "https://api.eduardolosilla.es/servicios/v1/probabilidad_real?jornada=8&temporada=2027",
+    "checked_at": "2026-09-20T21:37:21.767842+00:00",
+    "status": 200,
+    "final_url": "https://api.eduardolosilla.es/servicios/v1/probabilidad_real?jornada=8&temporada=2027",
+    "content_type": "application/xml",
+    "bytes": 2523,
+    "sha256": "929cda6f665b30af2e919ecd62641b3edc95d9ed5f83968965a5609ee4409310"
+  },
+  {
+    "id": "losilla_lae_j08",
+    "url": "https://api.eduardolosilla.es/servicios/v1/porcentajes_lae?jornada=8&temporada=2027",
+    "checked_at": "2026-09-20T21:37:22.752403+00:00",
+    "status": 200,
+    "final_url": "https://api.eduardolosilla.es/servicios/v1/porcentajes_lae?jornada=8&temporada=2027",
+    "content_type": "application/xml",
+    "bytes": 1591,
+    "sha256": "0f9d95545796b24b73b14628d206441cc5c4e6690f73b0e39fee605c8eb41a42"
+  },
+  {
+    "id": "losilla_real_hist",
+    "url": "https://api.eduardolosilla.es/servicios/v1/probabilidad_real?jornada=1&temporada=2026",
+    "checked_at": "2026-09-20T21:37:23.706001+00:00",
+    "status": 200,
+    "final_url": "https://api.eduardolosilla.es/servicios/v1/probabilidad_real?jornada=1&temporada=2026",
+    "content_type": "application/xml",
+    "bytes": 2486,
+    "sha256": "497dfbd6fa97167a0f3dd3338debf51c296fe564da8b3625316f21d7ad2512e0"
+  },
+  {
+    "id": "losilla_horarios",
+    "url": "https://www.eduardolosilla.es/quiniela/ayudas/horarios",
+    "checked_at": "2026-09-20T21:37:24.648347+00:00",
+    "status": 200,
+    "final_url": "https://www.eduardolosilla.es/quiniela/ayudas/horarios",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 381599,
+    "sha256": "633b0a5f9bfdac384fa8a3aeebd93db38c40c6c770a0cfdea5c1572427af0f34"
+  },
+  {
+    "id": "losilla_escrutinio",
+    "url": "https://www.eduardolosilla.es/quiniela/ayudas/escrutinio",
+    "checked_at": "2026-09-20T21:37:27.489357+00:00",
+    "status": 200,
+    "final_url": "https://www.eduardolosilla.es/quiniela/ayudas/escrutinio",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 390019,
+    "sha256": "6921d468849a7a430cebe352923440a89d310f1b55fa3c8996ea9d08a3879d1b"
+  },
+  {
+    "id": "odds_sports",
+    "url": "https://the-odds-api.com/sports-odds-data/sports-apis.html",
+    "checked_at": "2026-09-20T21:37:30.439349+00:00",
+    "status": 200,
+    "final_url": "https://the-odds-api.com/sports-odds-data/sports-apis.html",
+    "content_type": "text/html; charset=utf-8",
+    "bytes": 54259,
+    "sha256": "c98e7ce88136b88fa62d8d1013895901c6884883b3fda8f713d17099c137e77e"
+  },
+  {
+    "id": "understat_hist",
+    "url": "https://understat.com/league/La_liga/2025",
+    "checked_at": "2026-09-20T21:37:30.985010+00:00",
+    "status": 200,
+    "final_url": "https://understat.com/league/La_liga/2025",
+    "content_type": "text/html; charset=UTF-8",
+    "bytes": 18715,
+    "sha256": "e0e5c94416aefb3f8718534677c61771cd87c2017511c247a113d7012b3e53f9"
+  },
+  {
+    "id": "quiniwin_j09_2627",
+    "url": "https://www.quiniwin.com/xml/2026-2027_j09.xml",
+    "checked_at": "2026-09-20T21:37:31.808364+00:00",
+    "status": 200,
+    "final_url": "https://www.quiniwin.com/xml/2026-2027_j09.xml",
+    "content_type": "text/xml",
+    "bytes": 1618,
+    "sha256": "36a8b1ec5c81279acbeca3328257763f670b41e06766c00fc72bd3cb28fbd5b9"
+  }
+]

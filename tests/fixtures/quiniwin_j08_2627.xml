@@ -1,0 +1,27 @@
+<XML>
+	<QuinielaBASE>
+		<DatosGeneracionFicheroXML fecha="11/09/2026" hora="18:20:54"/>
+		<Programa nombre="QUINIWINGOLES" version="2026 (r02)"/>
+		<Nota texto=""/>
+		<NumeroJornada valor="8"/>
+		<Temporada valor="2026/2027"/>
+		<Partidos>
+			<partido numero="1" pronostico="1" equipos="Osasuna-Rayo Vallecano"/>
+			<partido numero="2" pronostico="1" equipos="Athletic Club-Alavés"/>
+			<partido numero="3" pronostico="1" equipos="Sevilla-Barcelona"/>
+			<partido numero="4" pronostico="1" equipos="Getafe-Málaga"/>
+			<partido numero="5" pronostico="1" equipos="Deportivo-Betis"/>
+			<partido numero="6" pronostico="1" equipos="Villarreal-Levante"/>
+			<partido numero="7" pronostico="1" equipos="Valencia-Real Sociedad"/>
+			<partido numero="8" pronostico="1" equipos="Andorra-Sporting"/>
+			<partido numero="9" pronostico="1" equipos="Castellón-Tenerife"/>
+			<partido numero="10" pronostico="1" equipos="Leganés-Granada"/>
+			<partido numero="11" pronostico="1" equipos="At. Madrid(f)-Logroño(f)"/>
+			<partido numero="12" pronostico="1" equipos="Eibar(f)-Athletic Club(f)"/>
+			<partido numero="13" pronostico="1" equipos="Real Madrid(f)-Valencia(f)"/>
+			<partido numero="14" pronostico="1" equipos="Tenerife(f)-Sevilla(f)"/>
+			<partido numero="15" pronostico="1" equipos="At. Madrid-Real Madrid" pronosticoPLENOGOLES="0-0" tipoPLENOGOLES="0" descripcionPLENOGOLES="P15: Signo fijo" porcentajesPRONOSTICOS="0,0,0,0,0,0,0,0" porcentajesRESULTADOS="0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0"/>
+		</Partidos>
+		<ColumnaGanadora valor="111111111111111" valorPLENOGOLES="0-0"/>
+	</QuinielaBASE>
+</XML>
