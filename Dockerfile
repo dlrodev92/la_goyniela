@@ -29,6 +29,7 @@ COPY db ./db
 COPY alembic.ini ./
 COPY scripts ./scripts
 COPY data ./data
+COPY readme.md ./
 
 # Layer 3: install the project itself (no-op for our lib-less layout)
 RUN uv sync --frozen --no-dev
